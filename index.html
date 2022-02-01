@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png">
+    <title>Relacyjne bazy danych</title>
+    <!--taktyczny komentarz nr1 strone wykonał Bartosz Wędrychowicz-->
+</head>
+
+<body>
+    <header>
+        <h1>Relacyjne bazy danych</h1><br>
+        <blockquote>"In the 21st century, the database is the marketplace."<br> <i>Stan Rapp</i></blockquote>
+        <header>
+            <article>
+                <h2>Relacyjne bazy danych to takie w których tabele są ze sobą powiązane za pomocą relacji.</h2><br>
+
+                <div id="container">
+                    <hr>
+                    <dl>
+                        <dt><p>Baza danych</p>
+                <dd>
+                    <p>
+                    Baza danych to zbiór danych zapisanych w odpowiednim formacie.
+                    Format zapisu danych pozwala na dostęp do danych.
+                    W zależności od zastosowania dane zapisywane są w różny sposób.
+                    Sposób zapisu danych ma wpływ na wydajność poszczególnych operacji (zapisu, odczytu, usunięcia i modyfikacji danych).
+                    <img src="rodzaje_baz.png" alt="Rodzaje baz danych">
+                    </p>
+                </dd>
+            </dt>
+                        <hr>
+                        <dt><p>Klucz podstawowy</p>
+                <dd>
+                    <p>Klucz podstawowy jest polem lub zestawem pól o unikatowych wartościach w tabeli.
+                        Wartości klucza mogą służyć do tworzenia odniesień do całych rekordów, ponieważ każdy rekord ma inną wartość klucza.
+                         Każda tabela może mieć tylko jeden klucz podstawowy.</p>
+                   <table>
+                    <tr><td><sub><ion-icon name="key-outline"></sub></ion-icon>PESEL</td><td>Imię</td><td>Nazwisko</td><td>Miasto</td><td>Kod pocztowy</td><td>Adres</td></tr>
+                    <tr><td>69072144272</td><td>Mikołaj</td><td>Zieliński</td><td>Mikołajki</td><td>11-730</td><td>ul.Krótka 49</td></tr>
+                    <tr><td>60071587419</td><td>Dominik</td><td>Kwiatkowski</td><td>Giżycko</td><td>11-500</td><td>ul.Portowa 23</td></tr>
+                    <tr><td>66081987588</td><td>Jędrzej</td><td>Baranowski</td><td>Pisz</td><td>12-200</td><td>ul.Słoneczna 54</td></tr>
+                    <tr><td>67110215511</td><td>Cezary</td><td>Marciniak</td><td>Ryn</td><td>11-520</td><td>ul.Pocztowa 79</td></tr>
+                    <tr><td>60012857667</td><td>Gabriel</td><td>Jankowski</td><td>Mrągowo</td><td>11-700</td><td>ul.Źródłowa 66</td></tr>
+                   </table>
+                   <p>W powyższej tabeli funkcje klucza podstawowego pełni kolumna oznaczona ikoną <ion-icon name="key-outline"></ion-icon>. <br>
+                    Pełni tę funkcję, ponieważ zestaw tych wartości nie powtarza się w kolejnych kolumnach.
+                    </p>
+                </dd>
+            </dt>
+                        <hr>
+
+                        <dt><p>MySQL</p>
+                <dd>
+                    <p>
+                        MySQL rozwijany jest przez firmę Oracle. Wcześniej przez większość czasu jego tworzeniem zajmowała się szwedzka firma MySQL AB.
+                        MySQL AB została kupiona 16 stycznia 2008 roku przez Sun Microsystems, a ten 27 stycznia 2010 roku przez Oracle.
+                        W międzyczasie Monty Widenius (współtwórca MySQL) stworzył MariaDB – forka (alternatywną wersję) opartego na licencji GPL.
+                        MariaDB jest oparta na tym samym kodzie bazowym co MySQL i dąży do utrzymania kompatybilności z jej poprzednimi wersjami.
+
+                        <h3>Najważniejsze cechy MySQL</h3>
+                        MySQL był pisany raczej z myślą o szybkości niż kompatybilności ze standardem SQL – przez dłuższy czas MySQL nie obsługiwał nawet transakcji, co było zresztą głównym argumentem przeciwników tego projektu.
+                        MySQL obsługuje większą część obecnego standardu ANSI/ISO SQL (tj. SQL:2003). Wprowadza również swoje rozszerzenia i nowe elementy języka. <br>
+                        W wersji 5 dodano m.in:
+                        <ul>
+                            <li>procedury składowane</li>
+                            <li>wyzwalacze</li>
+                            <li>widoki</li>
+                            <li>kursory</li>
+                            <li>partycjonowanie tabel</li>
+                            <li>harmonogram zadań</li>
+                        </ul>
+                    </p>
+                </dd>
+            </dt>
+                        <hr>
+                        <dt><p>Microsoft Access</p></dt>
+                        <dd>
+                            <p>Jednym z wielu programów w którym możemy stworzyć i administrować swoją bazą danych jest Microsoft Access. <br>
+                                 Poniżej można zobaczyć interfejs programu:
+                            </p>
+                            <img src="access.png" alt="Interfejs programu MS Access">
+                        </dd>
+                </div>
+
+
+            </article>
+            <!--taktyczny komentarz nr2 strone wykonał Bartosz Wędrychowicz-->
+            <footer>
+                </h1><br> Stronę wykonał Bartosz Wędrychowicz z klasy 1pb <br>
+                <div class="cos">
+                    <sup>1</sup> na stronie pokazano wybrane definicje związane z bazami danych.<br>
+                    <sup>2</sup> ze względu na specyfikę strony nie udało mi się wstawić na nią formularzy.
+                </div>
+                </h1>
+            </footer>
+            <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+            <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+            <script src="main.js"></script>
+</body>
+<!--taktyczny komentarz nr3 strone wykonał Bartosz Wędrychowicz-->
+
+</html>

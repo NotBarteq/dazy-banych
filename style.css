@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+body {
+    background: #c8d8e4;
+    font-family: 'Poppins', sans-serif;
+    color: #2b6777;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header {
+    background: #52ab98;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 200px;
+}
+
+article {
+    background: #2b4741;
+    font-size: 22px;
+    font-weight: 300;
+    width: 100%;
+    height: 3500px;
+}
+
+footer {
+    width: 100%;
+    background: #52ab98;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    height: 150px;
+}
+
+.link {
+    text-decoration: none;
+    color: #FFFFFF;
+    position: relative;
+    top: 300px;
+    right: 200px;
+}
+
+.napis {
+    border: 3px solid black;
+    border-collapse: inherit;
+    background: rgb(19, 144, 138);
+}
+
+input {
+    cursor: pointer;
+}
+
+table {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background: wheat;
+}
+
+tr {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background: wheat;
+}
+
+td {
+    border: 3px solid black;
+    border-collapse: collapse;
+    background: wheat;
+}
+
+blockquote {
+    font-size: 30px;
+    font-family: 'Supermercado One', cursive;
+    text-shadow: none;
+    text-decoration: initial;
+    position: relative;
+    top: -50px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.cos{
+  font-family: 'Supermercado One', cursive;
+}
